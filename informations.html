@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Informations | GSPR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            color: #fff;
+        }
+
+        .hero {
+            min-height: 100vh;
+            background:
+                linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.35)),
+                url("image/GSPR.png") center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 30px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .badge {
+            margin-left: 20px;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            padding: 5px 14px;
+            font-size: 14px;
+        }
+
+        .content {
+            padding: 80px;
+            max-width: 1000px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: rgba(0,0,0,0.55);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 20px;
+            }
+
+            .content {
+                padding: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+
+    <header>
+        <div class="logo">G.S.P.R</div>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="informations.html">Informations</a>
+            <a href="documentation.html">Documentation</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Informations Générales</h1>
+
+        <div class="card">
+            <a href="https://www.calameo.com/read/008132068875e84f84b19"> Site à Proteger</a>
+            <p>
+                Assurer la protection des personnalités gouvernementales,
+                sécuriser les infrastructures critiques et lutter contre
+                les menaces internes et externes.
+            </p>
+        </div>
+
+        <div class="card">
+            <a href="https://www.calameo.com/read/0081303577b90a3d4aa48"> Formation De Convoi</a>
+            <p>
+                La Formation de Convoi assure la sécurité et la coordination des véhicules lors de déplacements stratégiques. Chaque membre apprend à conduire tactiquement, communiquer efficacement et réagir rapidement aux imprévus, garantissant un convoi sûr et maîtrisé.
+            </p>
+        </div>
+
+        <div class="card">
+            <a href="https://www.calameo.com/read/008130357e65a1b21bee9"> Tenue G.S.P.R</a>
+            <p>
+                La tenue GSPR combine sécurité, fonctionnalité et autorité. Conçue pour les interventions et la protection rapprochée, elle assure mobilité, discrétion et reconnaissance immédiate de l’unité.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>
